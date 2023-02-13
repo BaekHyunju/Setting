@@ -1,0 +1,93 @@
+개인 프로필 페이지 제작
+-비주얼 (인상 심어주기)
+-소개 (기술,학력,대외활동)
+-포트폴리오 (클론코드(5), 기타)
+-라이프 (자기의 일반 생활상)
+비전 (2년후, 4년후, 5년후)
+
+www/public_html 폴더(root)
+images
+css
+js
+assets 계약서, 일러스트파일 등
+
+
+인스톨
+material icon theme
+material theme
+rainbow
+auto rename tag
+auto close tag
+html to css
+prettier
+
+
+
+
+1. 폴더구조 및 등록
+
+
+2. html 기본형 완료
+ 2.1 내용 영역별 주석을 무조건 기재
+ 2.2 내용 영역별 섹션 구조 잡기
+	내용구분은 section 태그를 쓰자!!
+	header 는 header 태그를 쓰자!!
+	footer는 footer 태그를 쓰자!!
+	div는 레이아웃 용으로만 쓰자.
+바디태그 처음에 넣으면 좋음.
+    <div class="wrap"></div>
+
+
+3. css 기본형 완료 ( style.css )
+body 완료 안됨
+font 설정완료 되어야 기본형 완료
+css 에 폴더로 관리
+css/font/font.css 에서 글설정 관리
+
+
+
+필수 @charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 여백이 안쪽으로 생기게.
+}
+모든 섹션에 
+    position: relative;
+    display: block;
+필수
+
+
+
+css 의 적용 파워싸움
+html 태그
+html 태그의 class 적용
+html 태그의 id 적용 (가장 우선권있어요.)
+
+f12 선택후 css의 흐름을 추적하면서 업데이트
+
+
+
+
+
+4. js 기본형 완료
+js/script.js
+
+
+
+
+
+
+**************************
+
+컨트롤+/ 주석
+커트롤+b 옵션창 열기, 닫기
+
+
+https://caniuse.com/    - html 태그 검색
+
+
+
+https://www.cjfreshway.com/index.jsp
+프레시웨이 - 클론코딩
+

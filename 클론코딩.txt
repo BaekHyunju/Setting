@@ -12,14 +12,22 @@ js
 assets 계약서, 일러스트파일 등
 
 
+
+기본 설정
 인스톨
+Live Server
 material icon theme
 material theme
 rainbow
+CSSPeak
 auto rename tag
 auto close tag
 html to css
 prettier
+HTML CSS suport
+HTML to CSS autocompletion
+Night Owl
+korean language pack for visual studio code 한국어팩
 
 
 
